@@ -6,7 +6,7 @@ class HomePageTestData:
 
     @staticmethod
     def get_excel_data():
-        book = openpyxl.load_workbook("F:\\PROJECTS\\Selenium\\PyTest-Framework\\testData\\HomePageTestData.xlsx")
+        book = openpyxl.load_workbook("https://github.com/rajpreet88/pytest-framework/tree/master/testData/HomePageTestData.xlsx")
         sheet = book.active
 
         for i in range(2, sheet.max_row + 1):
